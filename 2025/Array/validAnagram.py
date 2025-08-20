@@ -4,7 +4,7 @@ class Solution:
         # return sorted(s) == sorted(t)
 
         # solution 2
-        return Counter(s) == Counter(t)
+        # return Counter(s) == Counter(t)
         # solution 1
         if len(s) != len(t):
             return False
